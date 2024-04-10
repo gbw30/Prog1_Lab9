@@ -8,4 +8,3 @@ def encode(password: str) -> str:
             encoded = str(encoded)[1:]
         encoded_password += str(encoded)
     return encoded_password
-
